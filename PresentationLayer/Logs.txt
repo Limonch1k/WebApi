@@ -1,0 +1,277 @@
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:305660
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:305660
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:305660
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:305660
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:305660
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=26666&param=TempDb,WndDir,Precip,TempDbMax&startAt=2023-05-24%2012:00:00&orderBy=
+I recieve next parameters?stationId=26666&param=TempDb,Precip&startAt=2023-05-24%2012%3A00%3A00&orderBy=
+User ID is 3
+Row of information  found: 1537
+I recieve next fields to select information:
+TempDb
+Precip
+SynopXML
+ResourceId
+DateObservation
+DateWriter
+I recieve next query: ?stationId=26666&param=TempDb,WndDir,Precip,TempDbMax&startAt=2023-05-24%2012:00:00&orderBy=
+I recieve next parameters?stationId=26666&param=TempDb,Precip&startAt=2023-05-24%2012%3A00%3A00&orderBy=
+User ID is 3
+Row of information  found: 1537
+I recieve next fields to select information:
+TempDb
+Precip
+SynopXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:305660
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:305660
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:305660
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:10000
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: ?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:10000
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: /api/getMeteoForecast?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters/api/getMeteoForecast?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:10000
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: /api/getMeteoForecast?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000:00:00&orderBy=DateWrite&endAt=2023-01-20%2000:00:00
+I recieve next parameters/api/getMeteoForecast?stationId=16&param=PrecipTotal&startAt=2023-01-10%2000%3A00%3A00&orderBy=DateWrite&endAt=2023-01-20%2000%3A00%3A00
+User ID is 3
+Row of information  found:10000
+I recieve next fields to select information:
+PrecipTotal
+GroundDataXML
+ResourceId
+DateObservation
+DateWriter
+I recieve next query: /api/getThreeHourMeteo?stationId=26666&param=TempDb,WndDir,Precip,TempDbMax&startAt=2023-05-24%2012:00:00&orderBy=
+I recieve next parameters/api/getThreeHourMeteo?stationId=26666&param=TempDb,Precip&startAt=2023-05-24%2012%3A00%3A00&orderBy=
+User ID is 3
+Row of information  found: 1537
+I recieve next fields to select information:
+TempDb
+Precip
+SynopXML
+ResourceId
+DateObservation
+DateWriter
+I recieve next query: /api/getThreeHourMeteo?stationId=26666&param=TempDb,WndDir,Precip,TempDbMax&startAt=2023-05-24%2012:00:00&orderBy=
+I recieve next parameters/api/getThreeHourMeteo?stationId=26666&param=TempDb,Precip&startAt=2023-05-24%2012%3A00%3A00&orderBy=
+User ID is 3
+Row of information  found: 1537
+I recieve next fields to select information:
+TempDb
+Precip
+SynopXML
+ResourceId
+DateObservation
+DateWriter
+I recieve next query: /api/getThreeHourMeteo?stationId=26666&param=TempDb,WndDir,Precip,TempDbMax&startAt=2023-05-24%2012:00:00&orderBy=
+I recieve next parameters/api/getThreeHourMeteo?stationId=26666&param=TempDb,Precip&startAt=2023-05-24%2012%3A00%3A00&orderBy=
+User ID is 3
+Row of information  found: 1537
+I recieve next fields to select information:
+TempDb
+Precip
+SynopXML
+ResourceId
+DateObservation
+DateWriter
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+I recieve next query: /api/getThreeHourMeteo?stationId=26666&param=TempDb,WndDir,Precip,TempDbMax&startAt=2023-05-24%2012:00:00&orderBy=
+I recieve next parameters/api/getThreeHourMeteo?stationId=26666&param=TempDb,Precip&startAt=2023-05-24%2012%3A00%3A00&orderBy=
+User ID is 3
+Row of information  found: 1537
+I recieve next fields to select information:
+TempDb
+Precip
+SynopXML
+ResourceId
+DateObservation
+DateWriter
+I recieve next query: /api/getThreeHourMeteo?stationId=26666&param=TempDb,WndDir,Precip,TempDbMax&startAt=2023-05-24%2012:00:00&orderBy=
+I recieve next parameters/api/getThreeHourMeteo?stationId=26666&param=TempDb,Precip&startAt=2023-05-24%2012%3A00%3A00&orderBy=
+User ID is 3
+Row of information  found: 1537
+I recieve next fields to select information:
+TempDb
+Precip
+SynopXML
+ResourceId
+DateObservation
+DateWriter
