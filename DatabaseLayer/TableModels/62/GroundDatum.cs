@@ -46,7 +46,7 @@ public partial class GroundDatum  : ISynopProperty
 
     public decimal? Visby { get; set; }
 
-    public decimal? DirectionW { get; set; }
+    public decimal? DirectW { get; set; }
 
     public DateTime DateWrite { get; set; }
 }

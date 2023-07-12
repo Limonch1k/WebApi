@@ -16620,3 +16620,24 @@ dbug: 10.07.2023 14:38:26.146 CoreEventId.ContextDisposed[10407] (Microsoft.Enti
       'MeteoContext' disposed.
 dbug: 10.07.2023 14:38:26.197 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
       'MeteoContext' disposed.
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer
+An unhandled exception has occurred while executing the request.
+Now listening on: http://192.168.211.64:5154
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Dima\Desktop\api-web\PresentationLayer

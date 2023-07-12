@@ -5,6 +5,17 @@ namespace api_fact_weather_by_city.JSONModels._29._131
 {
     public class GmfProtocolJson
     {
+
+        public GmfProtocolJson() 
+        {
+            Pcat = -1;
+            Aestimation = null;
+            Bestamination = null;
+            MarkEstam = null;
+            Prim = null;
+            Оpisanie = null;
+        }
+
         public int Kn { get; set; }
 
         public int God { get; set; }

@@ -40,7 +40,7 @@ public partial class MeteoContext : DbContext, IDbContext<DbSet<Synop>>, IDbCont
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
     {
-        optionsBuilder.UseNpgsql("");
+        optionsBuilder.UseNpgsql("Host=192.168.211.136;Port=5432;Database=meteoportal_db;Username=meteo;Password=3HFM4mO6NIJK5k2");
         Action<string> a = str =>
         {
             _logger.LogTrace(str);
@@ -69,7 +69,7 @@ public partial class MeteoContext : DbContext, IDbContext<DbSet<Synop>>, IDbCont
                 .HasColumnName("Date_write");
             //entity.Property(e => e.DewPoint).HasPrecision(3, 1);
             //entity.Property(e => e.IntenPrecip).HasPrecision(6, 2);
-            entity.Property(e => e.LackSatur).HasPrecision(3, 1);
+            //entity.Property(e => e.LackSatur).HasPrecision(3, 1);
             entity.Property(e => e.Precip)
                 .HasPrecision(4, 1)
                 .HasComment("Сумма осадков с начала метеосуток");
@@ -80,15 +80,15 @@ public partial class MeteoContext : DbContext, IDbContext<DbSet<Synop>>, IDbCont
             /*entity.Property(e => e.PresSl)
                 .HasPrecision(5, 1)
                 .HasColumnName("PresSL");*/
-            entity.Property(e => e.PstLevGPa)
+            entity.Property(e => e.Pressure)
                 .HasPrecision(5, 1)
                 .HasColumnName("PStLev_gPa");
-            entity.Property(e => e.PstLevMm).HasColumnName("PStLev_mm");
-            entity.Property(e => e.Pvapor)
+           // entity.Property(e => e.PstLevMm).HasColumnName("PStLev_mm");
+           /* entity.Property(e => e.Pvapor)
                 .HasPrecision(5, 2)
-                .HasColumnName("PVapor");
-            entity.Property(e => e.SpeedW).HasPrecision(3, 1);
-            entity.Property(e => e.SpeedWmax).HasPrecision(3, 1);
+                .HasColumnName("PVapor");*/
+            //entity.Property(e => e.SpeedW).HasPrecision(3, 1);
+            entity.Property(e => e.WindSp).HasPrecision(3, 1);
             entity.Property(e => e.TempAir).HasPrecision(3, 1);
             /*entity.Property(e => e.TempAir2)
                 .HasPrecision(3, 1)
@@ -102,7 +102,7 @@ public partial class MeteoContext : DbContext, IDbContext<DbSet<Synop>>, IDbCont
             entity.Property(e => e.TempSoil3)
                 .HasPrecision(3, 1)
                 .HasColumnName("TempSoil_3");*/
-            entity.Property(e => e.TempUndSurf).HasPrecision(3, 1);
+            //entity.Property(e => e.TempUndSurf).HasPrecision(3, 1);
             //entity.Property(e => e.TempWater).HasPrecision(5, 1);
         });
 
@@ -128,11 +128,11 @@ public partial class MeteoContext : DbContext, IDbContext<DbSet<Synop>>, IDbCont
                 .HasColumnName("Date_write");
             //entity.Property(e => e.ImgWwCode).HasColumnName("ImgWW_code");
             //entity.Property(e => e.PresSl).HasPrecision(6, 1);
-            entity.Property(e => e.PresSt).HasPrecision(6, 1);
+            entity.Property(e => e.Pressure).HasPrecision(6, 1);
             entity.Property(e => e.RelHum)
                 .HasPrecision(5, 1)
                 .HasComment("относительная влажность");
-            entity.Property(e => e.TempDb).HasPrecision(5, 1);
+            entity.Property(e => e.TempAir).HasPrecision(5, 1);
             //entity.Property(e => e.TempDbMax).HasPrecision(5, 1);
             //entity.Property(e => e.TempDbMin).HasPrecision(5, 1);
             //entity.Property(e => e.TempDp).HasPrecision(5, 1);

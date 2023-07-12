@@ -32,7 +32,7 @@ public partial class NWPContext: DbContext, IDbContext<DbSet<GroundDatum>>
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
     {
-        optionsBuilder.UseOracle("");
+        optionsBuilder.UseOracle("User Id=nwp;Password=modeli;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=192.168.211.62)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=serv)));");
         Action<string> a = str =>
         {
             _logger.LogTrace(str);
@@ -123,13 +123,13 @@ public partial class NWPContext: DbContext, IDbContext<DbSet<GroundDatum>>
             entity.Property(e => e.PrecipConv)
                 .HasColumnType("NUMBER(7,3)")
                 .HasColumnName("PRECIP_CONV");*/
-            entity.Property(e => e.PrecipTotal)
+            entity.Property(e => e.Precip)
                 .HasColumnType("NUMBER(7,3)")
                 .HasColumnName("PRECIP_TOTAL");
             entity.Property(e => e.Pressure)
                 .HasColumnType("NUMBER(8,3)")
                 .HasColumnName("PRESSURE");
-            entity.Property(e => e.RHumid)
+            entity.Property(e => e.RelHum)
                 .HasColumnType("NUMBER(7,3)")
                 .HasColumnName("R_HUMID");
             /*entity.Property(e => e.RHumidZero)
@@ -165,7 +165,7 @@ public partial class NWPContext: DbContext, IDbContext<DbSet<GroundDatum>>
             /*entity.Property(e => e.WindV100)
                 .HasColumnType("NUMBER(7,3)")
                 .HasColumnName("WIND_V100");*/
-            entity.Property(e => e.Winddirection)
+            entity.Property(e => e.DirectW)
                 .HasColumnType("NUMBER")
                 .HasColumnName("WINDDIRECTION");
             /*entity.Property(e => e.Winddirection100)
