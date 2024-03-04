@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ${SERVICE_NAME}:
+    build: .
+    ports:
+      - "${PROJECT_PORT_OUTSIDE}:${PROJECT_PORT_INSIDE}"
+
